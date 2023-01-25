@@ -22,8 +22,6 @@
     "@ngrx/store": "latest",
     "@ngrx/store-devtools": "^15.1.0",
     "@polkadot/extension-dapp": "^0.44.8",
-    "@subsocial/api": "^0.7.9",
-    "@subsocial/utils": "^0.7.9",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
