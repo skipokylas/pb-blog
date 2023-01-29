@@ -1171,6 +1171,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@polkadot/extension-dapp@npm:^0.44.8":
+  version: 0.44.8
+  resolution: "@polkadot/extension-dapp@npm:0.44.8"
+  dependencies:
+    "@babel/runtime": ^7.20.7
+    "@polkadot/extension-inject": ^0.44.8
+    "@polkadot/util": ^10.2.3
+    "@polkadot/util-crypto": ^10.2.3
+  peerDependencies:
+    "@polkadot/api": "*"
+    "@polkadot/util": "*"
+    "@polkadot/util-crypto": "*"
+  checksum: 2a6e7a87f6449d070cf9760f9fce335450e89d87c4751ae81fcc198beb2b4de339eef33259a6e8686bce3a1cbb60308c552fb10256034e24cee5158ea382568d
+  languageName: node
+  linkType: hard
+
+"@polkadot/extension-inject@npm:^0.44.8":
+  version: 0.44.8
+  resolution: "@polkadot/extension-inject@npm:0.44.8"
+  dependencies:
+    "@babel/runtime": ^7.20.7
+    "@polkadot/rpc-provider": ^9.11.1
+    "@polkadot/types": ^9.11.1
+    "@polkadot/util": ^10.2.3
+    "@polkadot/util-crypto": ^10.2.3
+    "@polkadot/x-global": ^10.2.3
+  peerDependencies:
+    "@polkadot/api": "*"
+  checksum: 049d44e783937cdae5adb85940325d144f8c2b602d7581c9ca2465d2041d7b773a4a88aeab15431447fe8fa53637883c0b2abe44c8032ee691f9a3735ec03747
+  languageName: node
+  linkType: hard
+
 "@polkadot/keyring@npm:^10.2.6":
   version: 10.2.6
   resolution: "@polkadot/keyring@npm:10.2.6"
@@ -1223,7 +1255,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/rpc-provider@npm:9.12.1":
+"@polkadot/rpc-provider@npm:9.12.1, @polkadot/rpc-provider@npm:^9.11.1":
   version: 9.12.1
   resolution: "@polkadot/rpc-provider@npm:9.12.1"
   dependencies:
@@ -1305,7 +1337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/types@npm:9.12.1, @polkadot/types@npm:^9.12.1, @polkadot/types@npm:latest":
+"@polkadot/types@npm:9.12.1, @polkadot/types@npm:^9.11.1, @polkadot/types@npm:^9.12.1, @polkadot/types@npm:latest":
   version: 9.12.1
   resolution: "@polkadot/types@npm:9.12.1"
   dependencies:
@@ -1321,7 +1353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/util-crypto@npm:10.2.6, @polkadot/util-crypto@npm:^10.2.6, @polkadot/util-crypto@npm:latest":
+"@polkadot/util-crypto@npm:10.2.6, @polkadot/util-crypto@npm:^10.2.3, @polkadot/util-crypto@npm:^10.2.6, @polkadot/util-crypto@npm:latest":
   version: 10.2.6
   resolution: "@polkadot/util-crypto@npm:10.2.6"
   dependencies:
@@ -1342,7 +1374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/util@npm:10.2.6, @polkadot/util@npm:^10.2.6":
+"@polkadot/util@npm:10.2.6, @polkadot/util@npm:^10.2.3, @polkadot/util@npm:^10.2.6":
   version: 10.2.6
   resolution: "@polkadot/util@npm:10.2.6"
   dependencies:
@@ -1457,7 +1489,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@polkadot/x-global@npm:10.2.6, @polkadot/x-global@npm:^10.2.6":
+"@polkadot/x-global@npm:10.2.6, @polkadot/x-global@npm:^10.2.3, @polkadot/x-global@npm:^10.2.6":
   version: 10.2.6
   resolution: "@polkadot/x-global@npm:10.2.6"
   dependencies:
@@ -7141,6 +7173,7 @@ __metadata:
     "@nestjs/schematics": ^9.0.0
     "@nestjs/testing": ^9.0.0
     "@polkadot/api-base": ^9.12.1
+    "@polkadot/extension-dapp": ^0.44.8
     "@polkadot/keyring": ^10.2.6
     "@polkadot/rpc-core": ^9.12.1
     "@polkadot/types": ^9.12.1

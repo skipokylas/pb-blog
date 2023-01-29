@@ -7,6 +7,6 @@ export class AppController {
 
   @Get()
   getHello() {
-    return this.appService.getSpace(1);
+    return this.appService.getHello();
   }
 }

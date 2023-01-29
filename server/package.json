@@ -24,6 +24,7 @@
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
     "@polkadot/api-base": "^9.12.1",
+    "@polkadot/extension-dapp": "^0.44.8",
     "@polkadot/keyring": "^10.2.6",
     "@polkadot/rpc-core": "^9.12.1",
     "@polkadot/types": "^9.12.1",
